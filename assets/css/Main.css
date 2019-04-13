@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+nav {
+  height: 20vh;
+  width: 100%;
+  color: white;
+  background-color: blue;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav input {
+  color: white;
+  font-family: monospace;
+  font-size: 15px;
+}
+nav a{
+  color: white;
+}
+.logo {
+  align-content: left;
+  font-size: 70px;
+}
+
+button {
+  color: black;
+  height: 20px;
+}
+section{
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#homecover {
+  height: 100vh;
+  width: 50%;
+  padding: 50px;
+  background-image: url("https://s3-eu-west-1.amazonaws.com/wbm.thumbnail/all/412461_1280.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left;
+
+}
+#news{
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}

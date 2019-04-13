@@ -6,9 +6,9 @@
     <link rel="stylesheet" href="assets/css/main.css">
   </head>
   <body>
+    <div id="nav"></div>
     <section>
       <section id="homecover">
-
       </section>
       <section id="news">
         <li>
@@ -25,7 +25,18 @@
         </li>
       </section>
     </section>
-
-
+    <div id="foot"></div>
+    <script
+      src="https://code.jquery.com/jquery-3.4.0.js"
+      integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo="
+      crossorigin="anonymous"></script>
+    <script>
+      $(function(){
+        $("#nav").load("Nav.html");
+      });
+      $(function(){
+        $("#foot").load("Footer.html");
+      });
+    </script>
   </body>
 </html>
